@@ -1,0 +1,90 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.chating{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-top: 1%;
+}
+
+.chat{
+    border: black solid 1px;
+    border-radius: 10px;
+    width: 50%;
+    background-color: darkgray;
+}
+.chat_header{
+    border-bottom: black solid 1px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    padding: 10px;
+    background-color: white;
+    border-radius: 10px 10px 0 0;
+}
+.chat_body{
+    overflow: scroll;
+    display: flex;
+    flex-direction: column;
+    height: 75vh;
+}
+
+.chat_foot{
+    border-top: black solid 1px;
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    justify-content: end;
+    padding: 5px;
+}
+
+.send{
+    border: none;
+    background-color: aqua;
+    border-radius: 5px;
+    cursor: pointer;
+    padding: 5px 10px;
+}
+
+.mess_input{
+    padding: 3px;
+}
+
+.message_content{
+    padding: 5px;
+    max-width: 50%;
+}
+
+.data_time{
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+    font-size: 10px;
+}
+
+#you{
+    background-color: lightblue;
+    border-radius: 5px;
+}
+
+#other{
+    background-color: lightgreen;
+    border-radius: 5px;
+}
+
+#yours{
+    display: flex;
+    flex-direction: column;
+    align-items: end;
+}
+
+#there{
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+}
